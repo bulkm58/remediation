@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('LaBladeDesNuls',function(){
+    $Burns='je suis Mr.Burns';
+    return view('LaBladeDesNuls',compact('Burns'));
+});
